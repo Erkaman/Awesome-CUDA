@@ -39,7 +39,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
 * [Thrust](https://github.com/thrust/thrust) - A parallel algorithms library whose main goal is programmer productivity and
   rapid development. But if your main goal is reaching the best
   possible performance, you are advised to use a more low-level
-  library, such as CUDPP or chag.
+  library, such as CUDPP or chag::pp.
 
 * [Hemi](https://github.com/harrism/hemi) - A nice little utility library that
  allows you to write code that can be run either on the CPU or GPU,
@@ -52,7 +52,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   low-level. Recommended if performance is more important than
   programmer productivity.
 
-* [Parallel Primitives Library: Chag](https://newq.net/archived/www.cse.chalmers.se/pub/pp/) - This
+* [Parallel Primitives Library: chag::pp](https://newq.net/archived/www.cse.chalmers.se/pub/pp/) - This
   library provides the parallel primitives Reduction, Prefix Sum,
   Stream Compaction, Split, and Radix Sort. The authors have
   [demonstrated](https://newq.net/archived/www.cse.chalmers.se/pub/pp/stream_compaction_pres.pdf)
@@ -79,6 +79,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   paper describes an approach where the data is split into blocks,
   and then every thread is assigned a block and does RLE on that block.
 
+* [Efficient Stream Compaction on Wide SIMD Many-Core Architectures](http://www.cse.chalmers.se/~uffe/streamcompaction.pdf) - The paper that the chag::pp library is based on.
 
 * [Histogram calculation in CUDA](http://developer.download.nvidia.com/compute/cuda/1.1-Beta/x86_website/projects/histogram64/doc/histogram.pdf) - This article explains how a histogram can be calculated in CUDA.
 
