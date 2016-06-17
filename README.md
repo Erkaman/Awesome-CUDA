@@ -18,13 +18,13 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   Simulation Example, Host to Device Memory Transfer, Asynchronous
   Data Transfers, OpenGL Interoperability, Shared Memory, Coalesced
   Memory Access, Bank Conflicts, SIMT, Page-locked Memory, Registers,
-  Arithmetic Intensity, Finite Differences Example, Texture Memory,
+  Arithmetic Intensity, Finite Differences Example, Texture Memory.
 
 * [Advanced CUDA Webinar - Memory
   Optimizations](http://on-demand.gputechconf.com/gtc-express/2011/presentations/NVIDIA_GPU_Computing_Webinars_CUDA_Memory_Optimization.pdf) - This presentation covers: Asynchronous Data Transfers , Context
   Based Synchronization, Stream Based Synchronization, Events, Zero
   Copy, Memory Bandwidth, Coalescing, Shared Memory, Bank Conflicts,
-  Matrix Transpose Example, Textures,
+  Matrix Transpose Example, Textures.
 
 * [Better Performance at Lower
   Occupancy](http://www.nvidia.com/content/GTC-2010/pdfs/2238_GTC2010.pdf) - Excellent presentation where it is shown that we can achieve better
@@ -32,7 +32,9 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   Instruction-level parallelism. Covered topics are:
   Arithmetic Latency, Arithmetic Throughput, Little's Law,
   Thread-level parallelism(TLP), Instruction-level parallelism(ILP),
-  Matrix Multiplication Example,
+  Matrix Multiplication Example.
+
+* [Fun With Parallel Algorithms. Segmented Scan. Neutral territory method](http://www.cs.cmu.edu/afs/cs/academic/class/15418-s12/www/lectures/24_algorithms.pdf) - In these slides, it is shown how a segmented scan can easily be implemented using a variation of a normal scan.
 
 ## Libraries
 
