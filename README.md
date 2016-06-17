@@ -15,23 +15,20 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
 1D stencil kernel is shown.
 
 * [Advanced CUDA - Optimizing to Get 20x
-  Performance](https://www.nvidia.com/content/cudazone/download/Advanced_CUDA_Training_NVISION08.pdf)
-  This presentation covers: Tesla 10-Series Architecture, Particle
+  Performance](https://www.nvidia.com/content/cudazone/download/Advanced_CUDA_Training_NVISION08.pdf) - This presentation covers: Tesla 10-Series Architecture, Particle
   Simulation Example, Host to Device Memory Transfer, Asynchronous
   Data Transfers, OpenGL Interoperability, Shared Memory, Coalesced
   Memory Access, Bank Conflicts, SIMT, Page-locked Memory, Registers,
   Arithmetic Intensity, Finite Differences Example, Texture Memory,
 
-* (Advanced CUDA Webinar - Memory
-  Optimizations)[http://on-demand.gputechconf.com/gtc-express/2011/presentations/NVIDIA_GPU_Computing_Webinars_CUDA_Memory_Optimization.pdf]
-  This presentation covers: Asynchronous Data Transfers , Context
+* [Advanced CUDA Webinar - Memory
+  Optimizations](http://on-demand.gputechconf.com/gtc-express/2011/presentations/NVIDIA_GPU_Computing_Webinars_CUDA_Memory_Optimization.pdf) - This presentation covers: Asynchronous Data Transfers , Context
   Based Synchronization, Stream Based Synchronization, Events, Zero
   Copy, Memory Bandwidth, Coalescing, Shared Memory, Bank Conflicts,
   Matrix Transpose Example, Textures,
 
-* (Better Performance at Lower
-  Occupancy)[http://www.nvidia.com/content/GTC-2010/pdfs/2238_GTC2010.pdf]
-  - Excellent presentation where it is shown that we achieve better
+* [Better Performance at Lower
+  Occupancy](http://www.nvidia.com/content/GTC-2010/pdfs/2238_GTC2010.pdf) - Excellent presentation where it is shown that we achieve better
   performance by assigning more parallel work to each thread and using
   Instruction-level parallelism. Covered topics are:
   Arithmetic Latency, Arithmetic Throughput, Little's Law,
@@ -40,7 +37,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
 
 ## Libraries
 
-* [Thrust](https://github.com/thrust/thrust) - A parallel
+* (Thrust)[https://github.com/thrust/thrust] - A parallel
   algorithms library whose main goal is programmer productivity and
   rapid development. But if your main goal is reaching the best
   possible performance, you are advised to use a more low-level
@@ -67,17 +64,17 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
 
 ## Papers
 
-* [Multireduce and Multiscan on Modern
-  GPUs](http://hiperfit.dk/pdf/marco-eilers-thesis.pdf) - In this
+* (Multireduce and Multiscan on Modern
+  GPUs)[http://hiperfit.dk/pdf/marco-eilers-thesis.pdf] - In this
   master's thesis, it is examined how you can implement an efficient
   Multireduce or Multiscan on the GPU.
 
-* [Efficient Parallel Scan Algorithms for
-Many-core GPUs](http://www.idav.ucdavis.edu/publications/print_pub?pub_id=1041)
+* (Efficient Parallel Scan Algorithms for
+Many-core GPUs)[http://www.idav.ucdavis.edu/publications/print_pub?pub_id=1041]
   - In this paper, it is shown how scan and segmented scan algorithms
   can be efficiently implemented using a divide-and-conquer approach.
 
-* [©2009 Ana Balevic's homepage](http://tesla.rcub.bg.ac.rs/~taucet/coding.html)
+* (Ana Balevic's homepage)[http://tesla.rcub.bg.ac.rs/~taucet/coding.html]
   - Ana Balevic has done research in implementing compression
   algorithm on the GPU, and in her publications she describes fast
   implementations of RLE, VLE(Huffman coding) and arithmetic coding on
