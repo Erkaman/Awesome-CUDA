@@ -66,8 +66,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   master's thesis, it is examined how you can implement an efficient
   Multireduce or Multiscan on the GPU.
 
-* [Efficient Parallel Scan Algorithms for Many-core GPUs](http://www.idav.ucdavis.edu/publications/print_pub?pub_id=1041)
-  - In this paper, it is shown how scan and segmented scan algorithms
+* [Efficient Parallel Scan Algorithms for Many-core GPUs](http://www.idav.ucdavis.edu/publications/print_pub?pub_id=1041) - In this paper, it is shown how scan and segmented scan algorithms
   can be efficiently implemented using a divide-and-conquer approach.
 
 * [Ana Balevic's homepage](http://tesla.rcub.bg.ac.rs/~taucet/coding.html) - Ana Balevic has done research in implementing compression
