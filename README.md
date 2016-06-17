@@ -1,6 +1,6 @@
 # Awesome Cuda
 
-This is a list of useful of libraries and resources for CUDA
+This is a list of useful libraries and resources for CUDA
 development.
 
 ## Presentations
