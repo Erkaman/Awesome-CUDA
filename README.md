@@ -5,8 +5,8 @@ development.
 
 ## Presentations
 
-* (Optimizing Parallel Reduction in CUDA
-reduction)[https://docs.nvidia.com/cuda/samples/6_Advanced/reduction/doc/reduction.pdf]
+* [Optimizing Parallel Reduction in CUDA
+reduction](https://docs.nvidia.com/cuda/samples/6_Advanced/reduction/doc/reduction.pdf)
 - In this presentation it is shown how a fast, but relatively simple, reduction
 algorithm can be implemented.
 
