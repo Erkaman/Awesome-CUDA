@@ -41,18 +41,18 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   possible performance, you are advised to use a more low-level
   library, such as CUDPP or chag.
 
-* [Hemi](https://github.com/harrism/hemi) A nice little utility library that
+* [Hemi](https://github.com/harrism/hemi) - A nice little utility library that
  allows you to write code that can be run either on the CPU or GPU,
  and allows you to launch C++ lambda functions as CUDA kernels. Its
  main goal is to make it easier to write portable CUDA programs.
 
-* [CUDPP](https://github.com/cudpp/cudpp) A library that provides 15
+* [CUDPP](https://github.com/cudpp/cudpp) - A library that provides 15
   parallel primitives. In difference to Thrust, CUDPP is a more
   performance oriented library, and it is also much more
   low-level. Recommended if performance is more important than
   programmer productivity.
 
-* [Parallel Primitives Library: Chag](https://newq.net/archived/www.cse.chalmers.se/pub/pp/) This
+* [Parallel Primitives Library: Chag](https://newq.net/archived/www.cse.chalmers.se/pub/pp/) - This
   library provides the parallel primitives Reduction, Prefix Sum,
   Stream Compaction, Split, and Radix Sort. The authors have
   [demonstrated](https://newq.net/archived/www.cse.chalmers.se/pub/pp/stream_compaction_pres.pdf)
@@ -101,7 +101,7 @@ can be made faster on Kepler.
 ## Videos
 
 * [Intro to Parallel Programming CUDA -
-  Udacity](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)- An Udacity course for learning CUDA.
+  Udacity](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_) - An Udacity course for learning CUDA.
 
 ## Contributing
 
