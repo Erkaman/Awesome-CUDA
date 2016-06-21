@@ -101,6 +101,8 @@ Kepler](https://devblogs.nvidia.com/parallelforall/faster-parallel-reductions-ke
 Harris](https://docs.nvidia.com/cuda/samples/6_Advanced/reduction/doc/reduction.pdf)
 can be made faster on Kepler.
 
+* [GPU Pro Tip: Fast Histograms Using Shared Atomics on Maxwell](https://devblogs.nvidia.com/parallelforall/gpu-pro-tip-fast-histograms-using-shared-atomics-maxwell/) - It is shown how we can use shared memory atomics to implement a faster histogram implementation on Maxwell.
+
 ## Videos
 
 * [Intro to Parallel Programming CUDA -
