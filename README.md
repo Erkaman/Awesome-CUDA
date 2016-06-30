@@ -36,6 +36,8 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
 
 * [Fun With Parallel Algorithms. Segmented Scan. Neutral territory method](http://www.cs.cmu.edu/afs/cs/academic/class/15418-s12/www/lectures/24_algorithms.pdf) - In these slides, it is shown how a segmented scan can easily be implemented using a variation of a normal scan.
 
+* [GPU/CPU Programming for Engineers - Lecture 13](http://www.ce.jhu.edu/dalrymple/classes/602/Class13.pdf) - This lecture provides a good walkthrough of all the different memory types: Global Memory, Texture Memory, Constant Memory, Shared Memory, Registers and Local Memory.  
+
 ## Libraries
 
 * [Thrust](https://github.com/thrust/thrust) - A parallel algorithms library whose main goal is programmer productivity and
