@@ -5,7 +5,7 @@ development.
 
 ## Presentations
 
-* [Optimizing Parallel Reduction in CUDA](https://docs.nvidia.com/cuda/samples/6_Advanced/reduction/doc/reduction.pdf) - In this presentation it is shown how a fast, but relatively simple, reduction
+* [Optimizing Parallel Reduction in CUDA](https://web.archive.org/web/20160729221949/https://docs.nvidia.com/cuda/samples/6_Advanced/reduction/doc/reduction.pdf) - In this presentation it is shown how a fast, but relatively simple, reduction
 algorithm can be implemented.
 
 * [CUDA C/C++ BASICS](https://www.olcf.ornl.gov/wp-content/uploads/2013/02/Intro_to_CUDA_C-TS.pdf) - This presentations explains the concepts of CUDA kernels,
