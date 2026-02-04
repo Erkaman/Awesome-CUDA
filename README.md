@@ -110,6 +110,10 @@ can be made faster on Kepler.
 * [Intro to Parallel Programming CUDA -
   Udacity](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_) - An Udacity course for learning CUDA.
 
+## Books
+
+* [CUDA for Deel Learning](https://www.manning.com/books/cuda-for-deep-learning) - A book that shows you how to work within the CUDA ecosystem.
+
 ## Contributing
 
 This list is still under construction and is far from done. Anyone who
