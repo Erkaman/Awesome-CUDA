@@ -50,6 +50,11 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
  and allows you to launch C++ lambda functions as CUDA kernels. Its
  main goal is to make it easier to write portable CUDA programs.
 
+* [Ingero](https://github.com/ingero-io/ingero) - An eBPF-based CUDA
+  causal observability agent. Traces CUDA Runtime (libcudart.so) and
+  Driver (libcuda.so) APIs via uprobes to build causal chains
+  explaining GPU latency. <2% overhead, production-safe.
+
 * [CUDPP](https://github.com/cudpp/cudpp) - A library that provides 15
   parallel primitives. In difference to Thrust, CUDPP is a more
   performance oriented library, and it is also much more
