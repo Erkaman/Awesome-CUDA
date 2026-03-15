@@ -63,6 +63,8 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
   that their implementation of Stream Compaction and Prefix Sum are
   the fastest ones available!
 
+* [UltrafastSecp256k1](https://github.com/shrec/UltrafastSecp256k1) - CUDA-accelerated `secp256k1` engine with GPU ECDSA/Schnorr workflows, a unified GPU C ABI, and reproducible benchmark and validation tooling.
+
 ## Papers
 
 * [Multireduce and Multiscan on Modern GPUs](http://hiperfit.dk/pdf/marco-eilers-thesis.pdf) - In this
@@ -115,4 +117,3 @@ can be made faster on Kepler.
 This list is still under construction and is far from done. Anyone who
 wants to add links to the list are very much welcome to do so by a
 pull request!
-
