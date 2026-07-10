@@ -105,6 +105,8 @@ can be made faster on Kepler.
 
 * [GPU Pro Tip: Fast Histograms Using Shared Atomics on Maxwell](https://devblogs.nvidia.com/parallelforall/gpu-pro-tip-fast-histograms-using-shared-atomics-maxwell/) - It is shown how we can use shared memory atomics to implement a faster histogram implementation on Maxwell.
 
+* [What happens when you run a CUDA kernel](https://blog.doubleword.ai/what-happens-when-you-run-a-cuda-kernel) - A technical walkthrough that traces a simple vector-addition kernel all the way down the stack, from `nvcc` compilation and driver communication, through the memory hierarchy, to how threads are grouped into warps and scheduled on the GPU.
+
 ## Videos
 
 * [Intro to Parallel Programming CUDA -
