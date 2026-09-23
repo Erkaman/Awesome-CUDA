@@ -41,6 +41,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
 ## Libraries
 
 * [Thrust](https://github.com/thrust/thrust) - A parallel algorithms library whose main goal is programmer productivity and
+* [SuperL8](https://github.com/jajmangold/superl8) - INT8 DP4A FlashAttention-2 and GEMM kernels for Volta GPUs. 46 TOP/s on CMP 100-210 where tensor cores are firmware-disabled.
   rapid development. But if your main goal is reaching the best
   possible performance, you are advised to use a more low-level
   library, such as CUDPP or chag::pp.
@@ -51,6 +52,7 @@ syncrhonization. A simple addition kernel is shown, and an optimized stencil
  main goal is to make it easier to write portable CUDA programs.
 
 * [CUDPP](https://github.com/cudpp/cudpp) - A library that provides 15
+* [SuperL8](https://github.com/jajmangold/superl8) - INT8 DP4A FlashAttention-2 and GEMM kernels for Volta GPUs. 46 TOP/s on CMP 100-210 where tensor cores are firmware-disabled.
   parallel primitives. In difference to Thrust, CUDPP is a more
   performance oriented library, and it is also much more
   low-level. Recommended if performance is more important than
