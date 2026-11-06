@@ -105,6 +105,8 @@ can be made faster on Kepler.
 
 * [GPU Pro Tip: Fast Histograms Using Shared Atomics on Maxwell](https://devblogs.nvidia.com/parallelforall/gpu-pro-tip-fast-histograms-using-shared-atomics-maxwell/) - It is shown how we can use shared memory atomics to implement a faster histogram implementation on Maxwell.
 
+* [NVIDIA Xid Error Reference and Fault Triage](https://denpex.com/xid) - Engineering reference covering NVIDIA GPU Xid fault codes, root causes, and next diagnostic checks.
+
 ## Videos
 
 * [Intro to Parallel Programming CUDA -
